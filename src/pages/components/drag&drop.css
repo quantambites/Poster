@@ -1,0 +1,32 @@
+.dropzone h1{
+    color: #f9f9f9;
+}
+
+.cse {
+    background-color: #ce7deb;
+    color: #212121;
+    padding: 12px 13px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px auto; 
+    transition: background-color 0.2s ease-in-out;
+    width: 150px;
+    font-size: 18px;/* Center the button */
+  }
+
+  .cancel-button {
+    margin-left: 20px; /* Add margin-right to create space between the buttons */
+  }
+  .upload-button {
+    margin-right: 20px;
+  }
+
+  .uploads li{
+    color: #ffffff;
+  }
+
+  .cse:hover {
+    background-color: #e3b9f2;
+    transform: scale(1); /* Background color on hover */
+  }

@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {  
+  margin: 0px;
+  padding-top: 0px;/* Adjust this value based on the height of your navbar */
+ 
+}
+
+.container {
+  text-align: center;
+  color: #fdfcfc00;
+ 
+}
+
+.nav {
+  position: absolute; /* Set the position to fixed */
+  top: 0; /* Stick it to the top of the viewport */
+  width: 100%; /* Occupy the full width of the viewport */
+  background-color: #2b2b2b00;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 2.5rem;
+  z-index: 1000;
+  box-shadow: 0px 10px 10px -10px #1a191900;
+  margin: 0px;
+}
+
+.site-title {
+  right: 0;
+}
+
+.nav ul {
+  padding: 7px;/**/
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-right: 10px;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem .5rem;
+  font-size: 2rem;
+  
+}
+
+
+
+.nav ul.hover{
+  background-color:   #fd848400;
+}
+
+
+
+.butonn{
+  background-color: #ce7deb00;
+  color:  #ce7deb;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid  #ce7deb;
+  margin-top: 10px;
+}
+
+.butonn:hover{
+  color: #e9affe;
+  border: 2px solid  #e9affe;
+}
+
+
+.butonnn{
+  background-color: #ce7deb00;
+  color:  #ce7deb;
+  border-radius: 10px;
+  font-size: 25px;
+ 
+}
+
+.butonnn:hover{
+  color: #e9affe;
+}
+
+.butoonn{
+  background-color: #ce7deb00;
+  color:  #f4d5ff;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid  #f4d5ff;
+  margin-top: 10px;
+}
+
+.butoonn:hover{
+  color: #faedff;
+  border: 2px solid  #faedff;
+}
+
+/* Add padding to the body to offset the fixed navbar */

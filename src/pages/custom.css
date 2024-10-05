@@ -1,0 +1,66 @@
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+  }
+  
+  .txtc {
+    margin-bottom: 20px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  
+  .dropc {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  
+  .drop:hover {
+    border-color: #aaa;
+  }
+  
+  .I1{
+    scale: 10;
+    margin: 10%;
+    color: #cd42ff;
+  }
+  
+  .hdr {
+    font-size: 60px;
+    margin-bottom: 10px; 
+    display: inline;
+    color:#cd42ff
+  }
+  
+  .hrc{
+   
+    margin-top: 45px;
+    margin-left: 10px;
+    text-align: left;
+  }
+  
+  .hrc a{
+    display: inline-block; 
+    margin-left: 10px;
+    color: #ebb9fe;
+  }
+  
+  @media only screen and (max-width: 768px) {
+   .txtc{
+    scale: 0.8;
+   }
+  
+   .dropc{
+    scale: 0.8;
+   }
+    .I1{
+      margin-top: 70px;
+    }
+  }
+  
+  

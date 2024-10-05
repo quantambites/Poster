@@ -1,0 +1,378 @@
+/* styles.css */
+.body{
+  padding: 0px;
+  margin: 0px;
+}
+/* Main container */
+.address-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+/* Username and Address section */
+.user-info {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+}
+
+/* Sign-in section */
+.signin-section,
+.add-address-section,
+.current-address-section {
+  flex: 0 0 100%;
+  text-align: center;
+}
+
+
+.cart-orders-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 20px; 
+ 
+  padding-top: 50px;
+  margin-bottom: 50px;
+  gap :20px;
+}
+
+
+
+/* Custom link */
+.active {
+  font-weight: bold;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  /* Username and Address section */
+  .user-info {
+    flex: 0 0 100%;
+  }
+
+  /* Cart and Orders container */
+  .cart-orders-container {
+    flex-direction: row;
+  }
+
+  /* Cart section */
+  .cart {
+    flex: 0 0 100%;
+  }
+
+  /* Orders section */
+  .order {
+    flex: 0 0 100%;
+  }
+
+  /* Reduce order image size in grid */
+  .order-item img {
+    max-width: 100%;
+  }
+
+  .defal p{
+   
+    margin-left: 0;
+  }
+
+  .defal{
+    margin-left: 0px;
+  }
+}
+.u1{
+  scale: 3;
+  margin-left: 0px;
+  margin-top: 120px;
+  color: #cf4aff;
+}
+
+.cse {
+  background-color: #ce7deb;
+  color: #212121;
+  padding: 12px 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px auto; 
+  transition: background-color 0.2s ease-in-out;
+  width: 150px;
+  font-size: 18px;/* Center the button */
+}
+
+.cse:hover {
+  background-color: #e3b9f2;
+  transform: scale(1); /* Background color on hover */
+}
+
+.nam{
+  margin-left: 0px;
+  font-size: 35px;
+  margin-top: 30px;
+  color:#e59fff
+}
+
+.signin-section{
+  margin-top: 70px;
+  
+  border-radius: 10px;
+ width: 50%;
+}
+
+  .addr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+.signin-section button{
+  background-color: #ce7deb;
+  display: inline-block;
+    color: #212121;
+    padding: 12px 13px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px auto; 
+    transition: background-color 0.2s ease-in-out;
+    width: 180px;
+    font-size: 18px;/* Center the button */
+}
+
+.signin-section button:hover{
+  background-color: #e3b9f2;
+    transform: scale(1);
+}
+
+.signin-section p{
+  color: white;
+}
+
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  background-color:#3f3e3e;
+
+  border-radius: 10px;
+  margin: auto;
+  width: 80%; 
+  max-width: 600px; 
+  }
+
+.cart-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #da95f3;
+}
+
+.cart-heading button{
+  margin-bottom: 10px;
+}
+
+.cart-heading a {
+  margin: 0;
+  text-align: center; 
+  font-size: 30px;
+}
+
+
+
+.cart img {
+  max-width: 200px;
+  max-height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+
+.csec {
+  background-color: #ce7deb;
+  color: #212121;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px auto; 
+  transition: background-color 0.2s ease-in-out; 
+  font-size: 18px;
+}
+
+.csec:hover {
+  background-color: #e3b9f2;
+  transform: scale(1); 
+}
+
+.shop-now-btn {
+  text-decoration: none;
+  list-style-type: none; 
+  color: #212121;
+}
+
+.csec li {
+  text-decoration: none; 
+  list-style: none;   
+}
+
+.defal p{
+  color: #ffffff;
+  font-size: 27px;
+  margin-left: 10%;
+  justify-self: center;
+}
+
+.defal{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.defal button{
+  margin-left: 30px;
+}
+
+.cart-items-container {
+  display: flex;
+  flex-wrap: wrap; 
+  flex-direction: column;
+}
+
+/* CSS for each cart item */
+.cart-item {
+  
+  border-top: 2px solid #e1a3f8;
+  margin: 20px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+}
+.contain{
+  width:300px;
+  display: flex;
+  justify-content: center; 
+  margin: 0px;
+  padding: 0px;
+}
+.contain img {
+  max-width: 300px; 
+  display: block; 
+  padding-left: 15px;
+}
+
+.order-all-button {
+  width:130px;
+  height: 50px;
+  background-color: #ce7deb;
+  color: #212121;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
+  transition: background-color 0.2s ease-in-out; 
+  font-size: 18px;
+}
+.order-all-button:hover{
+  background-color: #e3b9f2;
+  transform: scale(1); 
+}
+
+
+.cart-style p,select{
+  margin-bottom: -5px;
+  margin-right: 30px;
+  padding-left: 10px;
+}
+
+.cart-style button{
+  margin-top: -10px;
+}
+
+.card-style{
+  display: flex;
+  flex-direction: row;
+  margin-bottom:  0px;
+  margin-left: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  scale:0.8;
+}
+
+.details{
+  margin-bottom: 0px;
+
+}
+
+
+
+.order-item{
+  border-top: 2px solid #e1a3f8;
+  gap: 50px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 25px;
+  height: 230px;
+}
+
+.order-item img {
+  max-width: 300px;
+  max-height: 200px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.order {
+  text-align: left;
+  background-color:#3f3e3e;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-left: 20px;
+  width: 80%; /* Adjust width to match the modal */
+  max-width: 600px; /* Adjust max-width to match the modal */
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: auto;
+  padding-right: 20px;
+  }
+
+/* Adjust font size, margin, and color for the heading */
+.order p {
+  margin-bottom: 15px;
+  padding-top: 5px;
+  color: #de92fa;
+ 
+}
+
+.ordernow{
+  background-color: #ce7deb;
+  color: #212121;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
+  transition: background-color 0.2s ease-in-out; 
+  font-size: 18px;
+  scale: 0.85;
+  margin-left: -10px;
+}
+
+.ordernow:hover{
+  background-color: #e3b9f2;
+  transform: scale(1); 
+}

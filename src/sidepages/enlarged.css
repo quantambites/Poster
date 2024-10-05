@@ -1,0 +1,126 @@
+
+
+.image-container img
+{
+    max-width: 350px;
+  max-height: 500px; /* Limit image height within the container */
+  width: auto;
+  height: auto;
+}
+
+.enlarged-image-page{
+    display: flex;
+    flex-direction: row; /* Align children vertically */
+    align-items: center; /* Center children horizontally */
+    padding-top: 50px; /* Add space at the top of the page */
+    background-color: rgb(36, 36, 36);
+    min-height: 100vh;
+}
+
+.image-container{
+   
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 10px; /* Margin between image and data container */
+
+}
+
+.data-container{
+  width: 100%; /* Take up full width of the parent */
+  color: #fff; /* Text color for data container */
+  margin-bottom: 10px; /* Adjust margin between image and data container */
+  display: flex; /* Use flexbox to align items */
+  flex-direction: column;
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  text-align: left;
+  margin-left: 50px;
+ /* margin-top: -20%;
+*/}
+
+.btns{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -55px;
+  margin-top: 10px;
+}
+
+.cse {
+  background-color: #ce7deb;
+  color: #212121;
+  padding: 12px 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px auto; 
+  transition: background-color 0.2s ease-in-out;
+  font-size: 18px;/* Center the button */
+
+}
+
+.cartbtn
+{
+  background-color: #ce7deb;
+  color: #212121;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px auto; 
+  transition: background-color 0.2s ease-in-out;
+  font-size: 18px;
+  margin-left: -45px;
+}
+
+.cartbtn:hover {
+  background-color: #e3b9f2;
+  transform: scale(1); /* Background color on hover */
+}
+
+
+.data-container p {
+ display: inline-block;
+ width: 100%;
+}
+
+.data-container span {
+  color: #dea3f3; /* Set color of spans to pink */
+  margin-right: 10px; /* Add spacing between spans */
+}
+
+.star {
+    fill: #ffd90000; /* Yellow fill color */
+    stroke: #c2a503; /* Yellow stroke color */
+    stroke-width: 1px; /* Stroke width */
+    margin-right: 5px; /* Adjust margin between stars */
+}
+
+.starfill {
+    fill: #FFD700; /* Yellow fill color */
+    stroke: #c2a503; /* Yellow stroke color */
+    stroke-width: 1px; /* Stroke width */
+    margin-right: 5px; /* Adjust margin between stars */
+}
+
+.body {
+    top : 100px;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .enlarged-image-page {
+      flex-direction: row;
+      justify-content: space-around; /* Center and space children horizontally */
+    }
+  
+    .image-container,
+    .data-container {
+      max-width: unset; /* Reset max-width for larger screens */
+    }
+  
+    .image-container {
+      margin-bottom: 0; /* Remove margin between containers */
+    }
+  }
